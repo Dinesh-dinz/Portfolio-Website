@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 16px;
+}
+
+nav {
+  font-family: var(--mono);
+  font-family: 80%;
+  padding: 2rem;
+  background-color:  #E0EBE8;
+}
+
+nav h1 a {
+  font-family: var(--sans)
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav li:first-child {
+  flex-basis: 40%;
+
+}
+
+
+nav a {
+  color: #4AB19A;
+  text-decoration: none;
+  display: block;
+
+}
+
+nav a:hover {
+  color: magenta;
+}
+
+main img {
+  height: auto;
+  width: 10rem;
+  border-radius: 60%;
+  margin-top: 2rem;
+}
+
+hero h1{
+font-family: 'Whisper', cursive;
+
+
+}
+
+.hero {
+  text-align: center;
+  background-color: #E0EBE8;
+  height: 25rem;
+
+}
+
+.main p{
+ margin-top: 1rem;
+ margin-left: 40%;
+ margin-right: 40%;
+line-height: 1.5rem;
+color:  #54545F;
+font-size: 100%;
+}
+
+
+.main{
+  text-align: center;
+  width: 100%;
+
+}
+
+.skill img {
+  height: auto;
+  width: 10rem;
+  border-radius: 60%;
+  margin-top: 2rem;
+}
+
+
+.skill{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+skill h2{
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  color: #54545F;
+
+}
+
+skill p{
+  color: #54545F;
+
+}
+
+
+skill img{
+  margin: 0 2rem;
+}
+
+.contact{
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 3rem;
+  color: #54545F;
+
+}
+
+.contact h1{
+  margin: 3rem 0;
+}
+
+
+
+
+}
